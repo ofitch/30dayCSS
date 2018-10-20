@@ -1,0 +1,37 @@
+* {
+	box-sizing: content-box;
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Doris Sans', sans-serif;
+}
+
+header, 
+main {
+	margin: 1rem 2rem;
+}
+
+p{
+	color: hsla(0deg, 50%, 100%, 0.5);
+	font-size: 1.0rem;
+	padding: 1rem;
+	display: block;
+}
+
+#one{
+	background-color:rebeccapurple;
+	display: inline;
+}
+
+#two{
+	background-color: darkgoldenrod;
+	display: none;
+}
+
+#three{
+	background-color: cornflowerblue;
+	display: inline-block;
+}
