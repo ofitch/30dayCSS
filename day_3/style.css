@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+/*Be aware of MARGIN COLLAPSING, larger margin wins*/
+*
+#product-overview {
+	/*These properties have shorthand but can be more specific
+	CHROME INSPECT and check them out*/
+	background: #ff1b68;
+	width: 100%;
+	height:528px;
+	padding: 10px;
+}
+
+#product-overview h1 {
+	font-family: 'Anton', sans-serif;
+	color: white;
+}
+
+.section-title {
+	color: #2ddf5c;
+}
+
+
+
+/*Block level elements always take the full avaiable width
+	block-level elements default always 100%*/
